@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background: url('https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg');
+    
+    /* background-size: cover; */
+}
+h1{
+    color: #c7c3c3;
+    font-family: 'Fasthand', cursive !important;
+    font-size: 5rem;
+}
+
+.container-fluid{
+ width: 410px;
+ margin: 50px auto;
+ padding: 10px;
+}
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.116);
+    border: 1px solid rgb(255, 255, 255, 0.116);
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 15px 35px rgba(248, 166, 166, 0.2);
+   
+}
+
+.inputs input[type="text"] {
+    color: #dad8d8;
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #d8d6d6;
+    border-radius: 12px;
+    margin-right:4px;
+}
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: #58a6c5;
+    font-weight: bold;
+    color: rgb(250, 236, 236);
+    font-size: 1rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.display {
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.wrapper {
+    margin: 0 9rem;
+    background: rgba(255, 255, 255, 0.116);
+    border: 1px solid rgb(255, 255, 255, 0.116);
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+    height: 45vh;
+    margin: 50px auto;
+    box-shadow: 0 15px 35px rgba(248, 166, 166, 0.2);
+    
+}
+.wrapper h3{
+    padding: 5px 0;
+    text-align: center;
+    background: #58a6c5;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-radius: 12px;
+    
+  }
+  .wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #58a6c5;
+    font-size:23px;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  .wrapper h2 span{
+    font-size: 26px;
+    color: #9beefb;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+    .wrapper p span{
+    color:#dad8d8;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
